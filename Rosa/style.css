@@ -42,6 +42,94 @@ img{
     z-index: 0;
 }
 
+.position-1{
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+.position-2{
+    margin-top: 8rem;
+    margin-left: 20rem;
+}
+
+.position-3{
+    margin-top: 28rem;
+    margin-left: 15rem;
+    z-index: 1;
+}
+
+.position-4{
+    margin-top: 35rem;
+    margin-left: 18rem;
+}
+
+.position-5{
+    margin-top: 22rem;
+    margin-left: 8rem;
+}
+
+.position-6{
+    margin-top: 28rem;
+    margin-left: 17rem;
+}
+
+.position-7{
+    margin-top: 32rem;
+    margin-left: 15rem;
+}
+
+.position-8{
+    margin-top: 37rem;
+    margin-left: 17rem;
+}
+
+
+.position-9{
+    margin-top: 37rem;
+    margin-left: 27rem;
+}
+
+
+.position-10{
+    margin-top: 25rem;
+    margin-left: 18rem;
+}
+
+
+.position-11{
+    margin-top: 28rem;
+    margin-left: 11rem;
+}
+
+
+.position-12{
+    margin-top: 14rem;
+    margin-left: 22rem;
+}
+
+
+.position-13{
+    margin-top: 26rem;
+    margin-left: 26rem;
+}
+
+
+.position-14{
+    margin-top: 18rem;
+    margin-left: 8rem;
+}
+
+
+.position-15{
+    margin-top: 26rem;
+    margin-left: 17rem;
+}
+
+.position-15{
+    margin-top: 27rem; 
+    margin-left:26rem;
+}
+
 .position-1{margin-top: 77%;margin-left: 54%;}
  .position-2{margin-top: 84%;margin-left: 70%;}
  .position-3{margin-top: 100%;margin-left: 70%;}
