@@ -8,6 +8,11 @@ body {
     color: rgb(224, 224, 224);
 }
 
+.seta{
+    width: 2rem;
+    height: 2rem;
+}
+
 .text-center{
     
     text-align: center;
@@ -29,7 +34,7 @@ img{
 }
 
 .star{
-    position: absolute;
+    position: relative;
     background-color: white;
     width: 2px;
     height: 2px;
@@ -37,6 +42,7 @@ img{
     z-index: 0;
 }
 
+<<<<<<< Updated upstream
 .position-1{
     margin-top: 5rem;
     margin-left: 2rem;
@@ -150,3 +156,25 @@ img{
  .position-38{margin-top: 26rem;margin-left: 18rem;}
  .position-39{margin-top: 40rem;margin-left: 10rem;}
  .position-40{margin-top: 37rem;margin-left: 19rem;}
+=======
+.position-1{margin-top: 77%;margin-left: 54%;}
+ .position-2{margin-top: 84%;margin-left: 70%;}
+ .position-3{margin-top: 100%;margin-left: 70%;}
+ .position-4{margin-top: 98%;margin-left: 31%;}
+ .position-5{margin-top: 56%;margin-left: 53%;}
+ .position-6{margin-top: 54%;margin-left: 78%;}
+ .position-7{margin-top: 71%;margin-left: 77%;}
+ .position-8{margin-top: 41%;margin-left: 61%;}
+ .position-9{margin-top: 30%;margin-left: 2%;}
+ .position-10{margin-top: 65%;margin-left: 86%;}
+ .position-11{margin-top: 9%;margin-left: 78%;}
+ .position-12{margin-top: 58%;margin-left: 85%;}
+ .position-13{margin-top: 16%;margin-left: 18%;}
+ .position-14{margin-top: 44%;margin-left: 6%;}
+ .position-15{margin-top: 52%;margin-left: 88%;}
+ .position-16{margin-top: 24%;margin-left: 66%;}
+ .position-17{margin-top: 60%;margin-left: 63%;}
+ .position-18{margin-top: 12%;margin-left: 61%;}
+ .position-19{margin-top: 1%;margin-left: 23%;}
+ .position-20{margin-top: 5%;margin-left: 66%;}
+>>>>>>> Stashed changes
