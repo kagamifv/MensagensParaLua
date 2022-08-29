@@ -1,152 +1,957 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #10111E;
-    color: rgb(224, 224, 224);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #10111e;
+  color: rgb(224, 224, 224);
 }
 
-.seta{
-    width: 2rem;
-    height: 2rem;
+.seta {
+  width: 2rem;
+  height: 2rem;
 }
 
-.text-center{
-    
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
-img{
-    width: 10rem;
-    height: 10rem
+img {
+  width: 10rem;
+  height: 10rem;
 }
 
-.margin-top-small{
-    margin-top: 2rem;
+h6 {
+  margin-bottom: 1rem;
 }
 
-.side-margins{
-    margin-top: 2.5rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+.margin-top-small {
+  margin-top: 2rem;
 }
 
-.star{
-    position: absolute;
-    background-color: white;
-    width: 2px;
-    height: 2px;
-    border-radius: 25rem;
-    z-index: 0;
+.side-margins {
+  margin-top: 2.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
-.position-1{
-    margin-top: 5rem;
-    margin-left: 2rem;
+.waning {
+  transform: scaleX(-1);
 }
 
-.position-2{
-    margin-top: 8rem;
-    margin-left: 20rem;
+.margin-bottom {
+  margin-bottom: 4rem;
 }
 
-.position-3{
-    margin-top: 28rem;
-    margin-left: 15rem;
-    z-index: 1;
+.moon-color {
+  background-color: #10111e;
+  border: 1.5px solid white;
+  border-radius: 100%;
+  margin: 0 auto;
 }
 
-.position-4{
-    margin-top: 35rem;
-    margin-left: 18rem;
+.full-moon {
+  background-color: rgb(218, 218, 218);
+  border-radius: 100%;
+  margin: 0 auto;
 }
 
-.position-5{
-    margin-top: 22rem;
-    margin-left: 8rem;
+.moons {
+  height: 3rem;
+  width: 3rem;
+  margin-bottom: 1.2rem;
 }
 
-.position-6{
-    margin-top: 28rem;
-    margin-left: 17rem;
+.star {
+  position: absolute;
+  background-color: white;
+  width: 2px;
+  height: 2px;
+  border-radius: 25rem;
+  z-index: 0;
 }
 
-.position-7{
-    margin-top: 32rem;
-    margin-left: 15rem;
+.position-1 {
+  margin-top: 5rem;
+  margin-left: 2rem;
 }
 
-.position-8{
-    margin-top: 37rem;
-    margin-left: 17rem;
+.position-2 {
+  margin-top: 8rem;
+  margin-left: 20rem;
 }
 
-
-.position-9{
-    margin-top: 37rem;
-    margin-left: 27rem;
+.position-3 {
+  margin-top: 28rem;
+  margin-left: 15rem;
+  z-index: 1;
 }
 
-
-.position-10{
-    margin-top: 25rem;
-    margin-left: 18rem;
+.position-4 {
+  margin-top: 35rem;
+  margin-left: 18rem;
 }
 
-
-.position-11{
-    margin-top: 28rem;
-    margin-left: 11rem;
+.position-5 {
+  margin-top: 22rem;
+  margin-left: 8rem;
 }
 
-
-.position-12{
-    margin-top: 14rem;
-    margin-left: 22rem;
+.position-6 {
+  margin-top: 28rem;
+  margin-left: 17rem;
 }
 
-
-.position-13{
-    margin-top: 26rem;
-    margin-left: 26rem;
+.position-7 {
+  margin-top: 32rem;
+  margin-left: 15rem;
 }
 
-
-.position-14{
-    margin-top: 18rem;
-    margin-left: 8rem;
+.position-8 {
+  margin-top: 37rem;
+  margin-left: 17rem;
 }
 
-
-.position-15{
-    margin-top: 26rem;
-    margin-left: 17rem;
+.position-9 {
+  margin-top: 37rem;
+  margin-left: 27rem;
 }
 
-.position-15{
-    margin-top: 27rem; 
-    margin-left:26rem;
+.position-10 {
+  margin-top: 25rem;
+  margin-left: 18rem;
 }
 
-.position-1{margin-top: 77%;margin-left: 54%;}
- .position-2{margin-top: 84%;margin-left: 70%;}
- .position-3{margin-top: 100%;margin-left: 70%;}
- .position-4{margin-top: 98%;margin-left: 31%;}
- .position-5{margin-top: 56%;margin-left: 53%;}
- .position-6{margin-top: 54%;margin-left: 78%;}
- .position-7{margin-top: 71%;margin-left: 77%;}
- .position-8{margin-top: 41%;margin-left: 61%;}
- .position-9{margin-top: 30%;margin-left: 2%;}
- .position-10{margin-top: 65%;margin-left: 86%;}
- .position-11{margin-top: 9%;margin-left: 78%;}
- .position-12{margin-top: 58%;margin-left: 85%;}
- .position-13{margin-top: 16%;margin-left: 18%;}
- .position-14{margin-top: 44%;margin-left: 6%;}
- .position-15{margin-top: 52%;margin-left: 88%;}
- .position-16{margin-top: 24%;margin-left: 66%;}
- .position-17{margin-top: 60%;margin-left: 63%;}
- .position-18{margin-top: 12%;margin-left: 61%;}
- .position-19{margin-top: 1%;margin-left: 23%;}
- .position-20{margin-top: 5%;margin-left: 66%;}
+.position-11 {
+  margin-top: 28rem;
+  margin-left: 11rem;
+}
+
+.position-12 {
+  margin-top: 14rem;
+  margin-left: 22rem;
+}
+
+.position-13 {
+  margin-top: 26rem;
+  margin-left: 26rem;
+}
+
+.position-14 {
+  margin-top: 18rem;
+  margin-left: 8rem;
+}
+
+.position-15 {
+  margin-top: 26rem;
+  margin-left: 17rem;
+}
+
+.position-15 {
+  margin-top: 27rem;
+  margin-left: 26rem;
+}
+
+.position-1 {
+  margin-top: 77%;
+  margin-left: 54%;
+}
+.position-2 {
+  margin-top: 84%;
+  margin-left: 70%;
+}
+.position-3 {
+  margin-top: 100%;
+  margin-left: 70%;
+}
+.position-4 {
+  margin-top: 98%;
+  margin-left: 31%;
+}
+.position-5 {
+  margin-top: 56%;
+  margin-left: 53%;
+}
+.position-6 {
+  margin-top: 54%;
+  margin-left: 78%;
+}
+.position-7 {
+  margin-top: 71%;
+  margin-left: 77%;
+}
+.position-8 {
+  margin-top: 41%;
+  margin-left: 61%;
+}
+.position-9 {
+  margin-top: 30%;
+  margin-left: 2%;
+}
+.position-10 {
+  margin-top: 65%;
+  margin-left: 86%;
+}
+.position-11 {
+  margin-top: 9%;
+  margin-left: 78%;
+}
+.position-12 {
+  margin-top: 58%;
+  margin-left: 85%;
+}
+.position-13 {
+  margin-top: 16%;
+  margin-left: 18%;
+}
+.position-14 {
+  margin-top: 44%;
+  margin-left: 6%;
+}
+.position-15 {
+  margin-top: 52%;
+  margin-left: 88%;
+}
+.position-16 {
+  margin-top: 24%;
+  margin-left: 66%;
+}
+.position-17 {
+  margin-top: 60%;
+  margin-left: 63%;
+}
+.position-18 {
+  margin-top: 12%;
+  margin-left: 61%;
+}
+.position-19 {
+  margin-top: 1%;
+  margin-left: 23%;
+}
+.position-20 {
+  margin-top: 5%;
+  margin-left: 66%;
+}
+
+.position-21 {
+  margin-top: 250%;
+  margin-left: 52%;
+}
+.position-22 {
+  margin-top: 89%;
+  margin-left: 67%;
+}
+.position-23 {
+  margin-top: 255%;
+  margin-left: 26%;
+}
+.position-24 {
+  margin-top: 68%;
+  margin-left: 7%;
+}
+.position-25 {
+  margin-top: 47%;
+  margin-left: 7%;
+}
+.position-26 {
+  margin-top: 20%;
+  margin-left: 56%;
+}
+.position-27 {
+  margin-top: 280%;
+  margin-left: 66%;
+}
+.position-28 {
+  margin-top: 368%;
+  margin-left: 13%;
+}
+.position-29 {
+  margin-top: 166%;
+  margin-left: 69%;
+}
+.position-30 {
+  margin-top: 271%;
+  margin-left: 16%;
+}
+.position-31 {
+  margin-top: 84%;
+  margin-left: 14%;
+}
+.position-32 {
+  margin-top: 219%;
+  margin-left: 11%;
+}
+.position-33 {
+  margin-top: 20%;
+  margin-left: 84%;
+}
+.position-34 {
+  margin-top: 472%;
+  margin-left: 3%;
+}
+.position-35 {
+  margin-top: 468%;
+  margin-left: 33%;
+}
+.position-36 {
+  margin-top: 16%;
+  margin-left: 42%;
+}
+.position-37 {
+  margin-top: 99%;
+  margin-left: 74%;
+}
+.position-38 {
+  margin-top: 413%;
+  margin-left: 35%;
+}
+.position-39 {
+  margin-top: 17%;
+  margin-left: 9%;
+}
+.position-40 {
+  margin-top: 63%;
+  margin-left: 27%;
+}
+.position-41 {
+  margin-top: 356%;
+  margin-left: 26%;
+}
+.position-42 {
+  margin-top: 368%;
+  margin-left: 6%;
+}
+.position-43 {
+  margin-top: 128%;
+  margin-left: 19%;
+}
+.position-44 {
+  margin-top: 126%;
+  margin-left: 66%;
+}
+.position-45 {
+  margin-top: 219%;
+  margin-left: 76%;
+}
+.position-46 {
+  margin-top: 220%;
+  margin-left: 61%;
+}
+.position-47 {
+  margin-top: 72%;
+  margin-left: 49%;
+}
+.position-48 {
+  margin-top: 155%;
+  margin-left: 76%;
+}
+.position-49 {
+  margin-top: 87%;
+  margin-left: 59%;
+}
+.position-50 {
+  margin-top: 541%;
+  margin-left: 18%;
+}
+.position-51 {
+  margin-top: 152%;
+  margin-left: 8%;
+}
+.position-52 {
+  margin-top: 595%;
+  margin-left: 4%;
+}
+.position-53 {
+  margin-top: 450%;
+  margin-left: 51%;
+}
+.position-54 {
+  margin-top: 438%;
+  margin-left: 55%;
+}
+.position-55 {
+  margin-top: 282%;
+  margin-left: 70%;
+}
+.position-56 {
+  margin-top: 355%;
+  margin-left: 21%;
+}
+.position-57 {
+  margin-top: 335%;
+  margin-left: 5%;
+}
+.position-58 {
+  margin-top: 519%;
+  margin-left: 34%;
+}
+.position-59 {
+  margin-top: 584%;
+  margin-left: 8%;
+}
+.position-60 {
+  margin-top: 325%;
+  margin-left: 65%;
+}
+.position-61 {
+  margin-top: 374%;
+  margin-left: 62%;
+}
+.position-62 {
+  margin-top: 9%;
+  margin-left: 19%;
+}
+.position-63 {
+  margin-top: 378%;
+  margin-left: 26%;
+}
+.position-64 {
+  margin-top: 326%;
+  margin-left: 48%;
+}
+.position-65 {
+  margin-top: 419%;
+  margin-left: 6%;
+}
+.position-66 {
+  margin-top: 180%;
+  margin-left: 75%;
+}
+.position-67 {
+  margin-top: 17%;
+  margin-left: 31%;
+}
+.position-68 {
+  margin-top: 219%;
+  margin-left: 27%;
+}
+.position-69 {
+  margin-top: 257%;
+  margin-left: 28%;
+}
+.position-70 {
+  margin-top: 567%;
+  margin-left: 51%;
+}
+.position-71 {
+  margin-top: 279%;
+  margin-left: 72%;
+}
+.position-72 {
+  margin-top: 563%;
+  margin-left: 67%;
+}
+.position-73 {
+  margin-top: 304%;
+  margin-left: 76%;
+}
+.position-74 {
+  margin-top: 143%;
+  margin-left: 55%;
+}
+.position-75 {
+  margin-top: 295%;
+  margin-left: 44%;
+}
+.position-76 {
+  margin-top: 247%;
+  margin-left: 18%;
+}
+.position-77 {
+  margin-top: 330%;
+  margin-left: 74%;
+}
+.position-78 {
+  margin-top: 552%;
+  margin-left: 62%;
+}
+.position-79 {
+  margin-top: 140%;
+  margin-left: 70%;
+}
+.position-80 {
+  margin-top: 594%;
+  margin-left: 42%;
+}
+.position-81 {
+  margin-top: 74%;
+  margin-left: 63%;
+}
+.position-82 {
+  margin-top: 212%;
+  margin-left: 7%;
+}
+.position-83 {
+  margin-top: 80%;
+  margin-left: 20%;
+}
+.position-84 {
+  margin-top: 202%;
+  margin-left: 76%;
+}
+.position-85 {
+  margin-top: 103%;
+  margin-left: 59%;
+}
+.position-86 {
+  margin-top: 471%;
+  margin-left: 46%;
+}
+.position-87 {
+  margin-top: 489%;
+  margin-left: 75%;
+}
+.position-88 {
+  margin-top: 338%;
+  margin-left: 66%;
+}
+.position-89 {
+  margin-top: 190%;
+  margin-left: 60%;
+}
+.position-90 {
+  margin-top: 47%;
+  margin-left: 78%;
+}
+.position-91 {
+  margin-top: 186%;
+  margin-left: 39%;
+}
+.position-92 {
+  margin-top: 367%;
+  margin-left: 49%;
+}
+.position-93 {
+  margin-top: 478%;
+  margin-left: 77%;
+}
+.position-94 {
+  margin-top: 43%;
+  margin-left: 6%;
+}
+.position-95 {
+  margin-top: 128%;
+  margin-left: 83%;
+}
+.position-96 {
+  margin-top: 497%;
+  margin-left: 65%;
+}
+.position-97 {
+  margin-top: 519%;
+  margin-left: 32%;
+}
+.position-98 {
+  margin-top: 500%;
+  margin-left: 29%;
+}
+.position-99 {
+  margin-top: 394%;
+  margin-left: 68%;
+}
+.position-100 {
+  margin-top: 260%;
+  margin-left: 75%;
+}
+.position-101 {
+  margin-top: 94%;
+  margin-left: 48%;
+}
+.position-102 {
+  margin-top: 230%;
+  margin-left: 10%;
+}
+.position-103 {
+  margin-top: 314%;
+  margin-left: 66%;
+}
+.position-104 {
+  margin-top: 442%;
+  margin-left: 13%;
+}
+.position-105 {
+  margin-top: 221%;
+  margin-left: 38%;
+}
+.position-106 {
+  margin-top: 161%;
+  margin-left: 82%;
+}
+.position-107 {
+  margin-top: 431%;
+  margin-left: 43%;
+}
+.position-108 {
+  margin-top: 230%;
+  margin-left: 12%;
+}
+.position-109 {
+  margin-top: 7%;
+  margin-left: 32%;
+}
+.position-110 {
+  margin-top: 468%;
+  margin-left: 9%;
+}
+.position-111 {
+  margin-top: 26%;
+  margin-left: 63%;
+}
+.position-112 {
+  margin-top: 421%;
+  margin-left: 72%;
+}
+.position-113 {
+  margin-top: 43%;
+  margin-left: 68%;
+}
+.position-114 {
+  margin-top: 318%;
+  margin-left: 42%;
+}
+.position-115 {
+  margin-top: 25%;
+  margin-left: 62%;
+}
+.position-116 {
+  margin-top: 311%;
+  margin-left: 59%;
+}
+.position-117 {
+  margin-top: 5%;
+  margin-left: 61%;
+}
+.position-118 {
+  margin-top: 337%;
+  margin-left: 83%;
+}
+.position-119 {
+  margin-top: 256%;
+  margin-left: 84%;
+}
+.position-120 {
+  margin-top: 271%;
+  margin-left: 70%;
+}
+.position-121 {
+  margin-top: 152%;
+  margin-left: 61%;
+}
+.position-122 {
+  margin-top: 516%;
+  margin-left: 5%;
+}
+.position-123 {
+  margin-top: 541%;
+  margin-left: 22%;
+}
+.position-124 {
+  margin-top: 318%;
+  margin-left: 57%;
+}
+.position-125 {
+  margin-top: 227%;
+  margin-left: 43%;
+}
+.position-126 {
+  margin-top: 492%;
+  margin-left: 58%;
+}
+.position-127 {
+  margin-top: 285%;
+  margin-left: 6%;
+}
+.position-128 {
+  margin-top: 266%;
+  margin-left: 79%;
+}
+.position-129 {
+  margin-top: 221%;
+  margin-left: 67%;
+}
+.position-130 {
+  margin-top: 389%;
+  margin-left: 66%;
+}
+.position-131 {
+  margin-top: 512%;
+  margin-left: 4%;
+}
+.position-132 {
+  margin-top: 106%;
+  margin-left: 43%;
+}
+.position-133 {
+  margin-top: 123%;
+  margin-left: 26%;
+}
+.position-134 {
+  margin-top: 52%;
+  margin-left: 18%;
+}
+.position-135 {
+  margin-top: 106%;
+  margin-left: 15%;
+}
+.position-136 {
+  margin-top: 301%;
+  margin-left: 9%;
+}
+.position-137 {
+  margin-top: 51%;
+  margin-left: 80%;
+}
+.position-138 {
+  margin-top: 177%;
+  margin-left: 20%;
+}
+.position-139 {
+  margin-top: 321%;
+  margin-left: 33%;
+}
+.position-140 {
+  margin-top: 46%;
+  margin-left: 24%;
+}
+.position-141 {
+  margin-top: 60%;
+  margin-left: 18%;
+}
+.position-142 {
+  margin-top: 384%;
+  margin-left: 14%;
+}
+.position-143 {
+  margin-top: 262%;
+  margin-left: 21%;
+}
+.position-144 {
+  margin-top: 241%;
+  margin-left: 2%;
+}
+.position-145 {
+  margin-top: 144%;
+  margin-left: 75%;
+}
+.position-146 {
+  margin-top: 285%;
+  margin-left: 52%;
+}
+.position-147 {
+  margin-top: 89%;
+  margin-left: 7%;
+}
+.position-148 {
+  margin-top: 333%;
+  margin-left: 68%;
+}
+.position-149 {
+  margin-top: 423%;
+  margin-left: 65%;
+}
+.position-150 {
+  margin-top: 81%;
+  margin-left: 30%;
+}
+.position-151 {
+  margin-top: 244%;
+  margin-left: 82%;
+}
+.position-152 {
+  margin-top: 98%;
+  margin-left: 43%;
+}
+.position-153 {
+  margin-top: 180%;
+  margin-left: 24%;
+}
+.position-154 {
+  margin-top: 292%;
+  margin-left: 38%;
+}
+.position-155 {
+  margin-top: 313%;
+  margin-left: 5%;
+}
+.position-156 {
+  margin-top: 282%;
+  margin-left: 52%;
+}
+.position-157 {
+  margin-top: 311%;
+  margin-left: 54%;
+}
+.position-158 {
+  margin-top: 136%;
+  margin-left: 66%;
+}
+.position-159 {
+  margin-top: 177%;
+  margin-left: 46%;
+}
+.position-160 {
+  margin-top: 321%;
+  margin-left: 49%;
+}
+.position-161 {
+  margin-top: 320%;
+  margin-left: 5%;
+}
+.position-162 {
+  margin-top: 333%;
+  margin-left: 9%;
+}
+.position-163 {
+  margin-top: 214%;
+  margin-left: 47%;
+}
+.position-164 {
+  margin-top: 235%;
+  margin-left: 80%;
+}
+.position-165 {
+  margin-top: 432%;
+  margin-left: 61%;
+}
+.position-166 {
+  margin-top: 201%;
+  margin-left: 27%;
+}
+.position-167 {
+  margin-top: 153%;
+  margin-left: 71%;
+}
+.position-168 {
+  margin-top: 364%;
+  margin-left: 38%;
+}
+.position-169 {
+  margin-top: 395%;
+  margin-left: 64%;
+}
+.position-170 {
+  margin-top: 247%;
+  margin-left: 5%;
+}
+.position-171 {
+  margin-top: 50%;
+  margin-left: 50%;
+}
+.position-172 {
+  margin-top: 540%;
+  margin-left: 68%;
+}
+.position-173 {
+  margin-top: 33%;
+  margin-left: 42%;
+}
+.position-174 {
+  margin-top: 202%;
+  margin-left: 41%;
+}
+.position-175 {
+  margin-top: 60%;
+  margin-left: 2%;
+}
+.position-176 {
+  margin-top: 464%;
+  margin-left: 11%;
+}
+.position-177 {
+  margin-top: 280%;
+  margin-left: 15%;
+}
+.position-178 {
+  margin-top: 516%;
+  margin-left: 12%;
+}
+.position-179 {
+  margin-top: 218%;
+  margin-left: 15%;
+}
+.position-180 {
+  margin-top: 101%;
+  margin-left: 21%;
+}
+.position-181 {
+  margin-top: 188%;
+  margin-left: 24%;
+}
+.position-182 {
+  margin-top: 339%;
+  margin-left: 42%;
+}
+.position-183 {
+  margin-top: 206%;
+  margin-left: 65%;
+}
+.position-184 {
+  margin-top: 429%;
+  margin-left: 39%;
+}
+.position-185 {
+  margin-top: 247%;
+  margin-left: 56%;
+}
+.position-186 {
+  margin-top: 459%;
+  margin-left: 17%;
+}
+.position-187 {
+  margin-top: 107%;
+  margin-left: 48%;
+}
+.position-188 {
+  margin-top: 261%;
+  margin-left: 2%;
+}
+.position-189 {
+  margin-top: 26%;
+  margin-left: 29%;
+}
+.position-190 {
+  margin-top: 491%;
+  margin-left: 76%;
+}
+.position-191 {
+  margin-top: 34%;
+  margin-left: 18%;
+}
+.position-192 {
+  margin-top: 387%;
+  margin-left: 73%;
+}
+.position-193 {
+  margin-top: 507%;
+  margin-left: 16%;
+}
+.position-194 {
+  margin-top: 478%;
+  margin-left: 4%;
+}
+.position-195 {
+  margin-top: 244%;
+  margin-left: 50%;
+}
+.position-196 {
+  margin-top: 577%;
+  margin-left: 48%;
+}
+.position-197 {
+  margin-top: 181%;
+  margin-left: 31%;
+}
+.position-198 {
+  margin-top: 490%;
+  margin-left: 70%;
+}
+.position-199 {
+  margin-top: 437%;
+  margin-left: 66%;
+}
+.position-200 {
+  margin-top: 46%;
+  margin-left: 64%;
+}
